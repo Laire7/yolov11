@@ -1,0 +1,13 @@
+train: C:\Users\SBA\yolo\yolov11\kDataset_yolo\train\images
+val: C:\Users\SBA\yolo\yolov11\kDataset_yolo\valid\images
+test: C:\Users\SBA\yolo\yolov11\kDataset_yolo\test\images
+
+nc: 1
+names: ['kido']
+
+roboflow:
+  workspace: brad-dwyer
+  project: aquarium-combined
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/brad-dwyer/aquarium-combined/dataset/2
