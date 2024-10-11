@@ -1,9 +1,9 @@
-train: C:\Users\SBA\yolo\yolov11\kDataset_yolo\train\images
-val: C:\Users\SBA\yolo\yolov11\kDataset_yolo\valid\images
-test: C:\Users\SBA\yolo\yolov11\kDataset_yolo\test\images
+train: C:\Users\SBA\yolov11\yolo11\kgDataset_yolo\train\images
+val: C:\Users\SBA\yolov11\yolo11\kgDataset_yolo\valid\images
+test: C:\Users\SBA\yolov11\yolo11\kgDataset_yolo\test\images
 
-nc: 1
-names: ['kido']
+nc: 2
+names: ['kido', 'gomet']
 
 roboflow:
   workspace: brad-dwyer
